@@ -41,6 +41,10 @@ def handle_specific_table():
     """
     num = get_user_input("출력할 단을 입력하세요 (1-9): ")
     if num is not None:
+        multiple.print_all_multiplication_tables(num)    
+
+    num = get_user_input("출력할 단을 입력하세요 (1-9): ")
+    if num is not None:
         multiple.print_multiplication_table(num)
 
 def handle_range_table():
